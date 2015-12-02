@@ -1,0 +1,197 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="roshetta.roshetta.ProfileActivity"
+    android:id="@+id/profile">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/profilepicture"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/userPhoneNumber"
+        android:layout_toStartOf="@+id/userPhoneNumber" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/WakeTime"
+        android:id="@+id/wakeTime"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/SleepTime"
+        android:id="@+id/sleepTime"
+        android:layout_below="@+id/editWake"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/EditWakeTime"
+        android:id="@+id/editWake"
+        android:linksClickable="true"
+        android:layout_below="@+id/wakeUpTime"
+        android:layout_toRightOf="@+id/wakeTime"
+        android:layout_toEndOf="@+id/wakeTime" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ViewFriendsButton"
+        android:id="@+id/ViewFriendsButton"
+        android:layout_above="@+id/suggestedFriendsButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/dateOfBirth"
+        android:id="@+id/userDateOfBirth"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignLeft="@+id/ViewFriendsButton"
+        android:layout_alignStart="@+id/ViewFriendsButton"
+        android:layout_marginBottom="46dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/Name"
+        android:id="@+id/userName"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/userEmail"
+        android:layout_alignLeft="@+id/ViewFriendsButton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/Email"
+        android:id="@+id/userEmail"
+        android:layout_above="@+id/userAddress"
+        android:layout_alignLeft="@+id/ViewFriendsButton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/Address"
+        android:id="@+id/userAddress"
+        android:layout_above="@+id/userPhoneNumber"
+        android:layout_alignLeft="@+id/ViewFriendsButton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/PhoneNumber"
+        android:id="@+id/userPhoneNumber"
+        android:layout_above="@+id/userDateOfBirth"
+        android:layout_alignLeft="@+id/ViewFriendsButton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/wakeUp"
+        android:id="@+id/wakeUpTime"
+        android:layout_below="@+id/wakeTime"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/sleepingTime"
+        android:id="@+id/sleep"
+        android:layout_below="@+id/sleepTime"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/status"
+        android:id="@+id/status"
+        android:layout_alignBaseline="@+id/editWake"
+        android:layout_alignBottom="@+id/editWake"
+        android:layout_alignRight="@+id/ViewFriendsButton"
+        android:layout_alignEnd="@+id/ViewFriendsButton" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/writePostOnProfile"
+        android:inputType="text"
+        android:layout_below="@+id/status"
+        android:layout_alignLeft="@+id/status"
+        android:layout_alignStart="@+id/status" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/postButton"
+        android:id="@+id/postButton"
+        android:layout_alignTop="@+id/editSleep"
+        android:layout_alignRight="@+id/writePostOnProfile"
+        android:layout_alignEnd="@+id/writePostOnProfile" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/addComment"
+        android:id="@+id/addComment"
+        android:layout_below="@+id/postButton"
+        android:layout_alignRight="@+id/postButton"
+        android:layout_alignEnd="@+id/postButton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/EditSleepTime"
+        android:id="@+id/editSleep"
+        android:linksClickable="true"
+        android:layout_below="@+id/sleep"
+        android:layout_alignLeft="@+id/editWake"
+        android:layout_alignStart="@+id/editWake" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ViewMedications"
+        android:id="@+id/viewMedicationButton"
+        android:layout_above="@+id/suggestedFriendsButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/suggestedFriends"
+        android:id="@+id/suggestedFriendsButton"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/wakeUpTime"
+        android:layout_toEndOf="@+id/wakeUpTime" />
+
+
+</RelativeLayout>

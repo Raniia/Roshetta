@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="roshetta.roshetta" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ProfileActivity"
+            android:label="@string/title_activity_profile" >
+            <intent-filter>
+                <action android:name="roshetta.roshetta.ProfileActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EditWakeTime"
+            android:label="@string/title_activity_edit_wake_time" >
+        </activity>
+        <activity
+            android:name=".EditSleepTime"
+            android:label="@string/title_activity_edit_sleep_time" >
+        </activity>
+        <activity
+            android:name=".ViewFriendList"
+            android:label="@string/title_activity_view_friend_list" >
+        </activity>
+        <activity
+            android:name=".FriendProfile"
+            android:label="@string/title_activity_friend_profile" >
+        </activity>
+        <activity
+            android:name=".RemoveFriend"
+            android:label="@string/title_activity_remove_friend" >
+        </activity>
+        <activity
+            android:name=".suggestedFriends"
+            android:label="@string/title_activity_suggested_friends" >
+        </activity>
+        <activity
+            android:name=".viewMedication"
+            android:label="@string/title_activity_view_medication" >
+        </activity>
+        <activity
+            android:name=".DoctorProfile"
+            android:label="@string/title_activity_doctor_profile" >
+        </activity>
+        <activity
+            android:name=".MessageFriend"
+            android:label="@string/title_activity_message_friend" >
+        </activity>
+    </application>
+
+</manifest>

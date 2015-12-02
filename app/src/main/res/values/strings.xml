@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">Roshetta</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_user">User</string>
+    <string name="LoginForm">Login Form</string>
+    <string name="UserName">UserName:</string>
+    <string name="Password">Password:</string>
+    <string name="LoginButton">Login</string>
+    <string name="loginFB">Login with FB</string>
+    <string name="title_activity_fblogin">FBLogin</string>
+
+
+    <string name="title_activity_profile">ProfileActivity</string>
+
+
+
+    <string name="Name">Name</string>
+    <string name="Email">Email</string>
+    <string name="PhoneNumber">Phone Number</string>
+    <string name="Address">Address</string>
+    <string name="dateOfBirth">Date Of Birth</string>
+
+
+
+    <string name="WakeTime">Wake Time:</string>
+    <string name="SleepTime">Sleep Time:</string>
+    <string name="EditWakeTime">Edit</string>
+    <string name="EditSleepTime">Edit</string>
+    <string name="title_activity_edit_wake_time">EditWakeTime</string>
+
+    <string name="EditWakeTimeForm">Wanna change your wake up time?</string>
+    <string name="ViewFriendsButton">View Your Friends</string>
+    <string name="wakeUp">7:30 am</string>
+    <string name="sleepingTime">10:00 pm</string>
+    <string name="status">What is on your mind?</string>
+    <string name="postButton">Post</string>
+    <string name="addComment">Add Comment</string>
+    <string name="title_activity_edit_sleep_time">EditSleepTime</string>
+    <string name="EditSleepTimeForm">Wanna change your sleep time?</string>
+
+    <string name="saveWake">Save</string>
+    <string name="saveSleep">Save</string>
+    <string name="title_activity_view_friend_list">ViewFriendList</string>
+
+    <string name="FriendName1">Friend1 Name</string>
+    <string name="RemoveFriend1">Remove</string>
+    <string name="MessageFriend1">Message</string>
+    <string name="DoctorName">Doctor Name</string>
+    <string name="MessageDoctor">Message</string>
+
+    <string name="FriendName2">Friend2 Name</string>
+    <string name="RemoveFriend2">Remove</string>
+    <string name="MessageFriend2">Message</string>
+
+    <string name="FriendName3">Friend3 Name</string>
+    <string name="RemoveFriend3">Remove</string>
+    <string name="MessageFriend3">Message</string>
+    <string name="ViewTimeline">View Timeline</string>
+    <string name="ViewProfile">View Profile</string>
+    <string name="ViewFriend1Profile">View Profile</string>
+    <string name="ViewFriend2Profile">View Profile</string>
+    <string name="ViewFriend3Profile">View Profile</string>
+
+
+    <string name="title_activity_friend_profile">FriendProfile</string>
+    <string name="friendPost">Add Post</string>
+    <string name="ViewMedications">View Medications</string>
+    <string name="viewDoctorProfile">View Profile</string>
+    <string name="title_activity_remove_friend">RemoveFriend</string>
+
+    <string name="timeline">Back To Timeline</string>
+
+    <string name="profile">View Profile</string>
+    <string name="suggestedFriends">View Suggested Friends</string>
+    <string name="title_activity_suggested_friends">suggestedFriends</string>
+
+
+    <string name="PatientName1">Patient1 Name</string>
+    <string name="PatientName2">Patient2 Name</string>
+    <string name="PatientName3">Patient3 Name</string>
+
+
+    <string name="addFriend1">Add Friend</string>
+    <string name="addFriend2">Add Friend</string>
+    <string name="addFriend3">Add Friend</string>
+    <string name="title_activity_view_medication">viewMedication</string>
+
+    <string name="messageButton">Message</string>
+
+
+
+    <string name="MedicationName1">Medication1:</string>
+    <string name="dosage">Dosage</string>
+    <string name="RequireFood">Require Food?</string>
+
+
+    <string name="MedicationName2">Medication2:</string>
+    <string name="dosage2">Dosage</string>
+    <string name="RequireFood2">Require Food?</string>
+
+
+
+
+    <string name="MedicationName3">Medication3:</string>
+    <string name="dosage3">Dosage</string>
+    <string name="RequireFood3">Require Food?</string>
+    <string name="title_activity_doctor_profile">DoctorProfile</string>
+
+
+    <string name="askDoctorButton">Ask Doctor</string>
+    <string name="askDoctorButtonMedication">Ask Doctor</string>
+    <string name="BackToProfile">Back to profile</string>
+    <string name="title_activity_message_friend">MessageFriend</string>
+
+    <string name="hello_world">Hello world!</string>
+
+
+</resources>

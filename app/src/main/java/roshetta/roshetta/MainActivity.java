@@ -33,10 +33,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String checkuser = patientName.getText().toString();
-                String checkpass = patientName.getText().toString();
-                if(checkuser.matches("") && checkpass.matches("")) {
-                    //Toast.makeText(this, "Fill the UserName and Password", LENGTH_SHORT).show();
-                    return;
+                String checkpass = patientPassword.getText().toString();
+                if(checkuser.matches("")) {
+                    Toast.makeText(context, "Fill the UserName ", LENGTH_SHORT).show();
+                   return;
+                }
+
+               else if( checkpass.matches("")) {
+                    Toast.makeText(context, "Fill the Password", LENGTH_SHORT).show();
+                     return;
                 }
                     else{
                     Intent i = new Intent(context, ProfileActivity.class);

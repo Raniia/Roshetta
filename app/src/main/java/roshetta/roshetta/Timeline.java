@@ -6,13 +6,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 //import com.facebook.FacebookSdk;
 import android.view.View;
-import android.util.Log;
-import android.widget.RelativeLayout;
 import android.widget.Button;
-import android.graphics.Color;
 import android.widget.TextView;
-import android.widget.EditText;
-import android.widget.Button;
 import android.content.Intent;
 
 
@@ -36,8 +31,8 @@ public class Timeline extends AppCompatActivity {
         TextView edittext4 = (TextView)findViewById(R.id.edittext4);
         Button button1 = (Button)findViewById(R.id.button1);
         Button button2 = (Button)findViewById(R.id.button2);
-        Button button3 = (Button)findViewById(R.id.button3);
-        Button button4 = (Button)findViewById(R.id.button4);
+        Button button3 = (Button)findViewById(R.id.doctorMessageButton);
+        Button button4 = (Button)findViewById(R.id.removeFriend2);
 
     }
     public void onClickfirst(View v){

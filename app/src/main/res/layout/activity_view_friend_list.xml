@@ -23,17 +23,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/RemoveFriend1"
-        android:id="@+id/loginButton"
-        android:layout_alignTop="@+id/loginFBbutton"
-        android:layout_toLeftOf="@+id/loginFBbutton"
-        android:layout_toStartOf="@+id/loginFBbutton" />
+        android:id="@+id/removeFriend1"
+        android:layout_alignTop="@+id/messageFriend1"
+        android:layout_toLeftOf="@+id/messageFriend1"
+        android:layout_toStartOf="@+id/messageFriend1" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/MessageFriend1"
-        android:id="@+id/loginFBbutton"
+        android:id="@+id/messageFriend1"
         android:layout_alignBottom="@+id/loginForm"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
@@ -52,10 +52,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/MessageDoctor"
-        android:id="@+id/button3"
+        android:id="@+id/doctorMessageButton"
         android:layout_alignTop="@+id/userNameLogin"
-        android:layout_alignLeft="@+id/loginButton"
-        android:layout_alignStart="@+id/loginButton" />
+        android:layout_alignLeft="@+id/removeFriend1"
+        android:layout_alignStart="@+id/removeFriend1" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -63,7 +63,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/FriendName2"
         android:id="@+id/passwordLogin"
-        android:layout_below="@+id/button10"
+        android:layout_below="@+id/viewProf1"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="49dp" />
@@ -73,18 +73,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/RemoveFriend2"
-        android:id="@+id/button4"
+        android:id="@+id/removeFriend2"
         android:layout_alignBottom="@+id/passwordLogin"
-        android:layout_alignLeft="@+id/loginButton"
-        android:layout_alignStart="@+id/loginButton" />
+        android:layout_alignLeft="@+id/removeFriend1"
+        android:layout_alignStart="@+id/removeFriend1" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/MessageFriend2"
-        android:id="@+id/button5"
-        android:layout_alignBottom="@+id/button4"
+        android:id="@+id/messageFriend2"
+        android:layout_alignBottom="@+id/removeFriend2"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
@@ -94,7 +94,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/FriendName3"
         android:id="@+id/textView4"
-        android:layout_below="@+id/button11"
+        android:layout_below="@+id/viewProfile2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="51dp" />
@@ -104,26 +104,26 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/RemoveFriend3"
-        android:id="@+id/button6"
+        android:id="@+id/removeFriend3"
         android:layout_alignBottom="@+id/textView4"
-        android:layout_toLeftOf="@+id/button7"
-        android:layout_toStartOf="@+id/button7" />
+        android:layout_toLeftOf="@+id/messageFriend3"
+        android:layout_toStartOf="@+id/messageFriend3" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/MessageFriend3"
-        android:id="@+id/button7"
-        android:layout_alignTop="@+id/button6"
-        android:layout_alignLeft="@+id/button5"
-        android:layout_alignStart="@+id/button5" />
+        android:id="@+id/messageFriend3"
+        android:layout_alignTop="@+id/removeFriend3"
+        android:layout_alignLeft="@+id/messageFriend2"
+        android:layout_alignStart="@+id/messageFriend2" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/ViewTimeline"
-        android:id="@+id/button8"
+        android:id="@+id/myTimeline"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -132,7 +132,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/ViewProfile"
-        android:id="@+id/button9"
+        android:id="@+id/myProfile"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
@@ -141,36 +141,36 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/ViewFriend1Profile"
-        android:id="@+id/button10"
-        android:layout_below="@+id/loginButton"
-        android:layout_alignLeft="@+id/button3"
-        android:layout_alignStart="@+id/button3" />
+        android:id="@+id/viewProf1"
+        android:layout_below="@+id/removeFriend1"
+        android:layout_alignLeft="@+id/doctorMessageButton"
+        android:layout_alignStart="@+id/doctorMessageButton" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/ViewFriend2Profile"
-        android:id="@+id/button11"
-        android:layout_below="@+id/button4"
-        android:layout_alignRight="@+id/button10"
-        android:layout_alignEnd="@+id/button10" />
+        android:id="@+id/viewProfile2"
+        android:layout_below="@+id/removeFriend2"
+        android:layout_alignRight="@+id/viewProf1"
+        android:layout_alignEnd="@+id/viewProf1" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/ViewFriend3Profile"
-        android:id="@+id/button12"
-        android:layout_below="@+id/button6"
-        android:layout_alignLeft="@+id/button11"
-        android:layout_alignStart="@+id/button11" />
+        android:id="@+id/viewProfile3"
+        android:layout_below="@+id/removeFriend3"
+        android:layout_alignLeft="@+id/viewProfile2"
+        android:layout_alignStart="@+id/viewProfile2" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/viewDoctorProfile"
-        android:id="@+id/button"
-        android:layout_alignTop="@+id/button3"
-        android:layout_toRightOf="@+id/button3"
-        android:layout_toEndOf="@+id/button3" />
+        android:id="@+id/doctorProfileButton"
+        android:layout_alignTop="@+id/doctorMessageButton"
+        android:layout_toRightOf="@+id/doctorMessageButton"
+        android:layout_toEndOf="@+id/doctorMessageButton" />
 
 </RelativeLayout>

@@ -25,8 +25,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        login = (Button) findViewById(R.id.loginButton);
-        loginFb=(Button) findViewById(R.id.loginFBbutton);
+        login = (Button) findViewById(R.id.removeFriend1);
+        loginFb=(Button) findViewById(R.id.messageFriend1);
         patientName = (EditText) findViewById(R.id.patientName);
         patientPassword = (EditText) findViewById(R.id.patientPassword);
         login.setOnClickListener(new View.OnClickListener() {

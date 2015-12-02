@@ -16,7 +16,7 @@ public class DoctorProfile extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_doctor_profile);
-       askDoctor=(Button) findViewById(R.id.loginFBbutton);
+       askDoctor=(Button) findViewById(R.id.messageFriend1);
         askDoctor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

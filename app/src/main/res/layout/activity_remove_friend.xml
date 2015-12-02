@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:text="@string/timeline"
         android:id="@+id/timelineButton"
-        android:layout_alignTop="@+id/button"
+        android:layout_alignTop="@+id/doctorProfileButton"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="400dp"/>
@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:text="@string/profile"
         android:id="@+id/profileButton"
-        android:layout_alignTop="@+id/button"
+        android:layout_alignTop="@+id/doctorProfileButton"
         android:layout_alignParentLeft="true"
         android:layout_marginTop="400dp"/>
 </RelativeLayout>

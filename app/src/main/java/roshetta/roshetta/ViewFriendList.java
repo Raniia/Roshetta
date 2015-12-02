@@ -32,32 +32,39 @@ Context context = this;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_friend_list);
-        profile=(Button) findViewById(R.id.loginFBbutton);
-        message=(Button) findViewById(R.id.button3);
-        removeFriend1=(Button) findViewById(R.id.loginButton);
-        messageFriend1=(Button) findViewById(R.id.loginFBbutton);
-        viewFriend1= (Button) findViewById(R.id.button10);
+        profile=(Button) findViewById(R.id.doctorProfileButton);
+        message=(Button) findViewById(R.id.doctorMessageButton);
+        removeFriend1=(Button) findViewById(R.id.removeFriend1);
+        messageFriend1=(Button) findViewById(R.id.messageFriend1);
+        viewFriend1= (Button) findViewById(R.id.viewProf1);
 
-        removeFriend2=(Button) findViewById(R.id.button4);
-        messageFriend2=(Button) findViewById(R.id.button5);
-        viewFriend2= (Button) findViewById(R.id.button11);
+        removeFriend2=(Button) findViewById(R.id.removeFriend2);
+        messageFriend2=(Button) findViewById(R.id.messageFriend2);
+        viewFriend2= (Button) findViewById(R.id.viewProfile2);
 
-        removeFriend3=(Button) findViewById(R.id.button6);
-        messageFriend3=(Button) findViewById(R.id.button7);
-        viewFriend3= (Button) findViewById(R.id.button12);
+        removeFriend3=(Button) findViewById(R.id.removeFriend3);
+        messageFriend3=(Button) findViewById(R.id.messageFriend3);
+        viewFriend3= (Button) findViewById(R.id.viewProfile3);
 
-        myTimeline= (Button) findViewById(R.id.button8);
+        myTimeline= (Button) findViewById(R.id.myTimeline);
 
-        myProfile= (Button) findViewById(R.id.button9);
+        myProfile= (Button) findViewById(R.id.myProfile);
 
         profile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(context, ProfileActivity.class);
+                Intent i = new Intent(context, DoctorProfile.class);
                 startActivity(i);
             }
         });
 
+        message.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(context, MessageFriend.class);
+                startActivity(i);
+            }
+        });
         viewFriend1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -73,13 +80,6 @@ Context context = this;
             }
         });
 
-        profile.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(context, ProfileActivity.class);
-                startActivity(i);
-            }
-        });
        messageFriend1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

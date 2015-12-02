@@ -114,6 +114,12 @@
     <string name="title_activity_message_friend">MessageFriend</string>
 
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_timeline">Timeline</string>
+    <string name="title_activity_comment_page">CommentPage</string>
+    <string name="title_activity_comment_added">CommentAdded</string>
+    <string name="title_activity_ask_doctor">AskDoctor</string>
+    <string name="PostOnDoctorTimeline">Post</string>
+    <string name="BackToTimeline">Back to Timeline</string>
 
 
 </resources>

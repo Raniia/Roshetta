@@ -1,16 +1,44 @@
 package roshetta.roshetta;
 
+import android.content.Context;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 public class viewMedication extends AppCompatActivity {
+    Context context = this;
+    Button profile;
+    Button AskDoctor;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_medication);
+
+        profile=(Button) findViewById(R.id.backToProfileButton);
+        AskDoctor=(Button) findViewById(R.id.AskDoctorButtonInMedication);
+
+
+
+        profile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(context, ProfileActivity.class);
+                startActivity(i);
+            }
+        });
+
+        AskDoctor.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(context, MessageFriend.class);
+                startActivity(i);
+            }
+        });
     }
 
     @Override

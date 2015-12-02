@@ -1,16 +1,50 @@
 package roshetta.roshetta;
 
+import android.content.Context;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 public class suggestedFriends extends AppCompatActivity {
-
+Context context;
+    Button addFriend1;
+    Button addFriend2;
+    Button addFriend3;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_suggested_friends);
+
+        addFriend1 = (Button) findViewById(R.id.addFriendB1);
+        addFriend1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                addFriend1.setText("Friend Request Sent!");
+            }
+        });
+
+
+        addFriend2 = (Button) findViewById(R.id.addFriendB2);
+        addFriend2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                addFriend2.setText("Friend Request Sent!");
+            }
+        });
+
+        addFriend3 = (Button) findViewById(R.id.addFriendB3);
+        addFriend3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                addFriend3.setText("Friend Request Sent!");
+            }
+        });
+
+
     }
 
     @Override

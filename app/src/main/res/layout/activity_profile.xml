@@ -154,15 +154,7 @@
         android:layout_alignRight="@+id/writePostOnProfile"
         android:layout_alignEnd="@+id/writePostOnProfile" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="@string/addComment"
-        android:id="@+id/addComment"
-        android:layout_below="@+id/postButton"
-        android:layout_alignRight="@+id/postButton"
-        android:layout_alignEnd="@+id/postButton" />
+
 
     <TextView
         android:layout_width="wrap_content"

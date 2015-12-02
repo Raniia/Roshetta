@@ -8,12 +8,18 @@ import android.view.MenuItem;
 import android.content.Context;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
+
+import static android.widget.Toast.LENGTH_SHORT;
 
 
 public class MainActivity extends AppCompatActivity {
     Context context = this;
     Button login;
     Button loginFb;
+    EditText patientName;
+    EditText patientPassword;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,11 +27,21 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         login = (Button) findViewById(R.id.loginButton);
         loginFb=(Button) findViewById(R.id.loginFBbutton);
+        patientName = (EditText) findViewById(R.id.patientName);
+        patientPassword = (EditText) findViewById(R.id.patientPassword);
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(context, ProfileActivity.class);
-                startActivity(i);
+                String checkuser = patientName.getText().toString();
+                String checkpass = patientName.getText().toString();
+                if(checkuser.matches("") && checkpass.matches("")) {
+                    //Toast.makeText(this, "Fill the UserName and Password", LENGTH_SHORT).show();
+                    return;
+                }
+                    else{
+                    Intent i = new Intent(context, ProfileActivity.class);
+                    startActivity(i);
+                }
             }
         });
 

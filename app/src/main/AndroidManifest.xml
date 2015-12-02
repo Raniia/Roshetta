@@ -61,6 +61,18 @@
             android:name=".MessageFriend"
             android:label="@string/title_activity_message_friend" >
         </activity>
+        <activity
+            android:name=".Timeline"
+            android:label="@string/title_activity_timeline" >
+        </activity>
+        <activity
+            android:name=".CommentPage"
+            android:label="@string/title_activity_comment_page" >
+        </activity>
+        <activity
+            android:name=".AskDoctor"
+            android:label="@string/title_activity_ask_doctor" >
+        </activity>
     </application>
 
 </manifest>

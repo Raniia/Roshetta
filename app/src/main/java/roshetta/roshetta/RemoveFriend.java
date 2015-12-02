@@ -1,16 +1,40 @@
 package roshetta.roshetta;
 
+import android.content.Context;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 public class RemoveFriend extends AppCompatActivity {
-
+    Context context = this;
+    Button viewProfile;
+    Button timeline;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_remove_friend);
+        viewProfile=(Button) findViewById(R.id.loginFBbutton);
+       timeline=(Button) findViewById(R.id.timelineButton);
+        viewProfile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(context, ProfileActivity.class);
+                startActivity(i);
+            }
+        });
+
+
+        timeline.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(context, Timeline.class);
+                startActivity(i);
+            }
+        });
     }
 
     @Override

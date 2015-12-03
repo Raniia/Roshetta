@@ -32,6 +32,8 @@ Context context = this;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_friend_list);
+
+
         profile=(Button) findViewById(R.id.doctorProfileButton);
         message=(Button) findViewById(R.id.doctorMessageButton);
         removeFriend1=(Button) findViewById(R.id.removeFriend1);

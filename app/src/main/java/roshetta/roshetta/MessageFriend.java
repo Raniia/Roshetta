@@ -1,5 +1,4 @@
 package roshetta.roshetta;
-
 import Chat.ChatArrayAdapter;
 import Chat.ChatMessage;
 

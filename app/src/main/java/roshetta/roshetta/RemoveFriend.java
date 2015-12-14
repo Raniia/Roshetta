@@ -17,7 +17,7 @@ public class RemoveFriend extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_remove_friend);
-        viewProfile=(Button) findViewById(R.id.messageFriend1);
+        viewProfile=(Button) findViewById(R.id.profileButton);
        timeline=(Button) findViewById(R.id.timelineButton);
         viewProfile.setOnClickListener(new View.OnClickListener() {
             @Override

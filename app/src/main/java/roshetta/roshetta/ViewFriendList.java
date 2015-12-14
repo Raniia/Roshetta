@@ -12,8 +12,11 @@ import android.widget.Button;
 
 public class ViewFriendList extends AppCompatActivity {
 Context context = this;
+
+    //doctor
     Button profile;
     Button message;
+
     Button removeFriend1;
     Button messageFriend1;
     Button viewFriend1;

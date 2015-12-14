@@ -10,14 +10,14 @@ import android.view.View;
 import android.widget.Button;
 
 public class AskDoctor extends AppCompatActivity {
-    Context context;
+    Context context = this;
     Button backTimeline;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ask_doctor);
-        backTimeline=(Button) findViewById(R.id.button13);
+        backTimeline=(Button) findViewById(R.id.backToTimelineDoctor);
       backTimeline.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

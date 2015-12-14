@@ -35,7 +35,7 @@ public class viewMedication extends AppCompatActivity {
         AskDoctor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(context, MessageFriend.class);
+                Intent i = new Intent(context, DoctorProfile.class);
                 startActivity(i);
             }
         });

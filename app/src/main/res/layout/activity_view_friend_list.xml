@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/RemoveFriend1"
-        android:id="@+id/removeFriend1"
+        android:id="@+id/loginRoshetta"
         android:layout_alignTop="@+id/messageFriend1"
         android:layout_toLeftOf="@+id/messageFriend1"
         android:layout_toStartOf="@+id/messageFriend1" />
@@ -54,8 +54,8 @@
         android:text="@string/MessageDoctor"
         android:id="@+id/doctorMessageButton"
         android:layout_alignTop="@+id/userNameLogin"
-        android:layout_alignLeft="@+id/removeFriend1"
-        android:layout_alignStart="@+id/removeFriend1" />
+        android:layout_alignLeft="@+id/loginRoshetta"
+        android:layout_alignStart="@+id/loginRoshetta" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -75,8 +75,8 @@
         android:text="@string/RemoveFriend2"
         android:id="@+id/removeFriend2"
         android:layout_alignBottom="@+id/passwordLogin"
-        android:layout_alignLeft="@+id/removeFriend1"
-        android:layout_alignStart="@+id/removeFriend1" />
+        android:layout_alignLeft="@+id/loginRoshetta"
+        android:layout_alignStart="@+id/loginRoshetta" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -142,7 +142,7 @@
         android:layout_height="wrap_content"
         android:text="@string/ViewFriend1Profile"
         android:id="@+id/viewProf1"
-        android:layout_below="@+id/removeFriend1"
+        android:layout_below="@+id/loginRoshetta"
         android:layout_alignLeft="@+id/doctorMessageButton"
         android:layout_alignStart="@+id/doctorMessageButton" />
 

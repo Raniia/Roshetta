@@ -61,20 +61,24 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/LoginButton"
-            android:id="@+id/removeFriend1"
+            android:id="@+id/loginRoshetta"
             android:layout_below="@+id/patientPassword"
             android:layout_toRightOf="@+id/patientPassword"
             android:layout_toEndOf="@+id/patientPassword" />
 
 
+
+
     <com.facebook.login.widget.LoginButton
-        android:id="@+id/login_button"
+        android:id="@+id/fb_login_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_below="@+id/removeFriend1"
-        android:layout_alignRight="@+id/removeFriend1"
-        android:layout_alignEnd="@+id/removeFriend1" />
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="fb_login_button" />
+
+
 
 </RelativeLayout>
 

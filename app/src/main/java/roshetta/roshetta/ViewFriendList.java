@@ -39,7 +39,7 @@ Context context = this;
 
         profile=(Button) findViewById(R.id.doctorProfileButton);
         message=(Button) findViewById(R.id.doctorMessageButton);
-        removeFriend1=(Button) findViewById(R.id.removeFriend1);
+        removeFriend1=(Button) findViewById(R.id.loginRoshetta);
         messageFriend1=(Button) findViewById(R.id.messageFriend1);
         viewFriend1= (Button) findViewById(R.id.viewProf1);
 
